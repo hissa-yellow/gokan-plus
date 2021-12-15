@@ -28,6 +28,8 @@ header {
 }
 
 .header-right-btn {
+  padding-left: 0.2m;
+  
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -38,6 +40,7 @@ header {
   line-height: 8.12vw;
   cursor: pointer;
 }
+
 
 .tel-btn {
   width: 18.50vw;
@@ -113,7 +116,7 @@ header {
   z-index: 10;
   width: 12.64vw;
   position: absolute;
-  top: 49vw;
+  top: 51.1vw;
   right: 1.86vw;
 }
 
@@ -148,7 +151,7 @@ header {
 }
 
 .sabe-title {
-  font-size: 2.60vw;
+  font-size: 3vw;
   text-align: center;
   color: #DF5129;
   margin-bottom: 7.76vw;
@@ -165,11 +168,12 @@ header {
 
 .record-title {
   color: #734400;
-  font-size: 5.05vw;
+  font-size: 6.5vw;
   text-align: center;
   margin-top: 7.31vw;
   margin-bottom: 8.34vw;
   font-weight: bolder;
+  line-height: 1.4em;
 }
 
 #record p {
@@ -193,12 +197,14 @@ header {
   color: #734400;
   font-size: 5.59vw;
   margin-bottom: 6.93vw;
-  font-weight: normal;
+  font-weight: bold;
+  line-height: 1.5em;
 }
 
 .consept-feature p {
-  font-size: 3.19vw;
+  font-size: 3.3vw;
   margin-bottom: 13.31vw;
+  line-height: 1.4em;
 }
 
 
@@ -228,7 +234,8 @@ header {
 
 .environment-feature p {
   margin-top: 12vw;
-  
+  font-size: 4.2vw;
+  line-height: 1.4em;
 }
 
 
@@ -366,12 +373,25 @@ header {
 }
 
 
+.creative-svg {
+  text-align: center;
+  margin-bottom: 6.44vw;
+}
 
+#creative01 svg,
+#creative02 svg,
+#creative03 svg {
+  width: 15.83vw;
+  margin: 0 auto;
+}
 
 .creative-feature-title {
   font-size: 17.84vw;
   color: #DF5129;
   text-align: center;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 
 #creative01 > .creative-feature-title {
@@ -392,6 +412,7 @@ header {
 .creative-feature-explain {
   font-size: 4.66vw;
   margin-left: 6.72vw;
+  line-height: 1.6em;
 }
 
 #creative01 > .creative-feature-explain {
@@ -413,6 +434,7 @@ header {
   font-size: 3.19vw;
   margin-left: 5.03vw;
   margin-right: 4.92vw;
+  line-height: 1.5em;
 }
 
 #creative01 > .creative-feature-text {
@@ -492,6 +514,15 @@ header {
 }
 
 
+
+
+.welfare-text {
+  font-size: 3.19vw;
+  line-height: 2em;
+  font-weight: 500;
+  letter-spacing: -0.05vw;
+}
+
 #welfare1 > .welfare-text {
   margin-bottom: 9.50vw;
 }
@@ -547,6 +578,8 @@ header {
   margin-left: 6.32vw;
   margin-right: 4.14vw;
   line-height: 2em;
+  font-size: 3.72vw;
+  font-weight: 500;
 }
 
 .education1-img,
@@ -647,6 +680,7 @@ header {
 .staff-text {
   font-size: 3.19vw;
   line-height: 2em;
+  font-weight: 500;
 }
 
 .staff-top-img {
@@ -670,7 +704,7 @@ header {
 
 table {
   font-size: 3.19vw;
-  font-weight: bolder;
+  font-weight: 500;
   line-height: 2em;
 }
 
@@ -685,8 +719,8 @@ td {
 }
 
 th, td {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
   border-top: 1.2px solid #CCCCCC;
 }
 
@@ -798,7 +832,7 @@ textarea {
   padding: 0.6em 4em;
   color: white;
   font-weight: bolder;
-  border-radius: 20px;
+  border-radius: 50px;
   display: block;
   margin: 12.78vw auto 0;
 }
@@ -816,10 +850,10 @@ footer {
 .link-btn {
   font-size: 3.2vw;
   font-weight: bolder;
-  padding-top: 0.8em;
-  padding-bottom: 0.8em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
   border-radius: 50px;
-  width: 66vw;
+  width: 68vw;
   text-align: center;
 }
 
@@ -831,11 +865,9 @@ footer {
   background-color: white;
   color: #DF5129;
   position: absolute;
-  top: 30vw;
+  top: 31vw;
   left: 50%;
   transform: translateX(-50%);
-
-
 }
 
 .form-btn {
@@ -843,7 +875,7 @@ footer {
   color: white;
   border: 1px solid white;
   position: absolute;
-  top: 40vw;
+  top: 42.4vw;
   left: 50%;
   transform: translateX(-50%);
 }
