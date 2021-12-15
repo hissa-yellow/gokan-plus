@@ -90,7 +90,7 @@ header {
 .main-title-con::before {
   content: '技術には "絶対的な自信" があるgokan plus+で';
   font-size: 3.19vw;
-  font-weight: bolder;
+  font-weight: 500;
   color: #DF5129;
   position: absolute;
   top: -5.59vw;
@@ -105,7 +105,7 @@ header {
 .main-title-con::after {
   content: '人の”幸せ”をデザインするお店';
   font-size: 3.72vw;
-  font-weight: bolder;
+  font-weight: 500;
   color: #DF5129;
   position: absolute;
   top: 10.85vw;
